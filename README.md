@@ -1,7 +1,5 @@
 # domio-pricing-service
 
-![Domio](https://www.staydomio.com/static/media/logo-purple.09520d34.svg)
-
 The following is a sample pricing service for fetching property price-updates every 5 second interval,
 with event-notification for price-updates according to configured rules.
 
