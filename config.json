@@ -1,0 +1,13 @@
+{
+    "serviceUrl": "https://interview.domio.io/properties/",
+    "fetchIntervalMS": 5000,
+    "dbConnectionString": "database.sqlite",
+    "dbTestConnectionString": "test_database.sqlite",
+    "dbPort": "3000",
+    "emailServer": "smtp.mailtrap.io", 
+    "emailPort": 2525, 
+    "emailUsername": "9475d88e5ed9bf", 
+    "emailPassword": "0b90d54a6845cd",
+    "emailSendFrom": "notifications@domio.fake.com",
+    "adminEmail": "admin@domio.com"
+}
