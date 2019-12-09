@@ -50,7 +50,7 @@ module.exports.EmailService = class EmailService {
     sendOutboxMails() {
         try {
             if (this.outbox.length > 0 && !this.isWaiting) {
-                console.log(`Attempting to send ${this.outbox[0].Address}`);
+                //console.log(`Attempting to send ${this.outbox[0].Address}`);
                 this.transport.sendMail(this.outbox[0], async (err, info) => {
                     if (err) {
                         // throttle for the next tick until the e-mail server calms down
